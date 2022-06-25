@@ -6,13 +6,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Utopia OS',
+  title: 'Docutopia',
   tagline: 'app components for real life communities',
-  url: 'https://utopia-os.org',
+  url: 'https://next.docutopia.de',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/3markers.png',
+  favicon: 'img/docutopia.svg',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -39,14 +39,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/utopia-os/utopia-os.github.io/tree/main/',
+            'https://github.com/antontranelis/docutopia.de/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/utopia-os/utopia-os.github.io/tree/main/',
+            'https://github.com/antontranelis/docutopia.de/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,22 +59,22 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Utopia OS',
+        title: 'Docutopia',
         logo: {
-          alt: 'Utopia OS',
-          src: 'img/3markers.svg',
+          alt: 'Docutopia',
+          src: 'img/docutopia.svg',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'manifest',
             position: 'left',
             label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/utopia-os',
-            label: 'GitHub',
+            href: 'https://t.me/DOcUTOPIA2022',
+            label: 'Telegram',
             position: 'right',
           },
         ],
@@ -86,8 +86,8 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Introduction',
-                to: 'docs/intro',
+                label: 'Manifest',
+                to: 'docs/manifest',
               },
               {
                 label: 'Utopia-UI',
@@ -100,7 +100,7 @@ const config = {
             items: [
               {
                 label: 'Telegram',
-                href: 'https://t.me/utopiaOS',
+                href: 'https://t.me/DOcUTOPIA2022',
               },
               {
                 label: 'Docutopia Map',
